@@ -5,7 +5,7 @@ This is a Pythonic implementation of a neural network platform that will select 
 
 ## Software/package requirements
 In this project, the following packages are actively used:
-1. python v3.9.12, 
+1. 'python' v3.9.12, 
 2. tensorflow v2.7.0 (for the backbone),
 3. numpy v1.22.1 (you know),
 4. pandas v1.3.5 (for pre-/post-processing),
