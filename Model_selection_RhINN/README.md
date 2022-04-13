@@ -5,5 +5,7 @@ This is a Pythonic implementation of a neural network platform that will select 
 
 ## Software/package requirements
 In this project, the following packages are actively used:
-1. TensorFlow: tf.__version__ = '2.7.0'
-
+1. tensorflow v2.7.0 (for the backbone),
+2. numpy v1.22.1 (you know),
+3. pandas v1.3.5 (pre-/post-processing), and
+4. tensorflow_probability v0.7.0 (for L-BFGS optimization, optional). 
