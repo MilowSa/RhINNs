@@ -9,7 +9,8 @@ Here, I included the following:
 2. Its .py version (`Model_selection_RhINN.py` for the laziest)
 3. Two benchmarks for RhINN:
     1. Bayesian-based with `pymc3` (`BIC.ipynb`)
-    2. Scipy-based (`Scipy.ipynb`). 
+    2. Scipy-based (`Scipy.ipynb`)
+4. The data that we used to train, test, and benchmark our platform (`ExpData.xlsx`)
 
 PS: Since I had issues installing `pymc3`, I had to create a separate `conda` environment for `BIC.ipynb`. The following package versions are applied only to the main `ipynb` and `py` files for RhINNs.
 
