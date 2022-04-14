@@ -242,7 +242,6 @@ class RhINNSolver():
             
             # Store current loss for callback function 
             loss = loss.numpy().astype(np.float64)
-#             loss_HB = loss_HB.numpy().astype(np.float64)
 
             self.current_loss = loss           
             
