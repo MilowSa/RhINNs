@@ -5,8 +5,8 @@ This is a Pythonic implementation of a neural network platform that will select 
 
 ## What to expect
 Here, I included the following:
-1. Jupyter Notebook,
-2. Its .py version (for the laziest)
+1. Jupyter Notebook (`Model_selection_RhINN.ipynb`)
+2. Its .py version (`Model_selection_RhINN.py` for the laziest)
 3. Two benchmarks for RhINN:
     1. Bayesian-based with `pymc3` (`BIC.ipynb`)
     2. Scipy-based (`Scipy.ipynb`). 
