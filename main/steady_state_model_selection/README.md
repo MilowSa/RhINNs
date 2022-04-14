@@ -3,8 +3,14 @@ This project is currently submitted to Rheologica Acta and is currently under re
 
 This is a Pythonic implementation of a neural network platform that will select the best constitutive model for a given set of data. In this work, nine (9) constitutive models for describing the [quasi] steady-state shear stress of a material versus the imposed shear rate are added to a library, and the platform is tested for each set of data.
 
-## What we have here
-I included the Jupyter Notebook, its .py version (for the laziest), and two benchmarks for RhINN: one is Bayesian-based with `pymc3` (`BIC.ipynb`) and the other one is scipy-based (`Scipy.ipynb`). 
+## What to expect
+Here, I included the following:
+1. Jupyter Notebook,
+2. Its .py version (for the laziest)
+3. Two benchmarks for RhINN:
+    1. Bayesian-based with `pymc3` (`BIC.ipynb`)
+    2. scipy-based (`Scipy.ipynb`). 
+
 PS: Since I had issues installing `pymc3`, I had to create a separate `conda` environment for `BIC.ipynb`. The following package versions are applied only to the main `ipynb` and `py` files for RhINNs.
 
 ## Software/package requirements
