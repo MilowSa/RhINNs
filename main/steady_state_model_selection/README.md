@@ -38,5 +38,5 @@ To answer this question, we developed this rheology-informed platform that takes
 One might argue that this task could be done with other optimization or probabilistic methods, e,g., BIC or `scipy`'s `curve_fit` method (Trust Region Reflective, a constrained optimization method). We actually tested our RhINN algorithm against these two models. We found out that both TRF and BIC need proper priors and initial guesses for them to converge. However, our RhINN platform marches the entire parameter space without any constraints. RhINN can be the first step to get a sense of the parameter range, and other optimization methods can compliment RhINN if higher precision is demanded.
 
 
-# Contributors
+## Contributors
 This work was done by [Milad Saadat](https://scholar.google.com/citations?user=PPLvVmEAAAAJ&hl=en&authuser=1), [Mohammadamin Mahmoudabadbozchelou](https://scholar.google.com/citations?user=C57oydEAAAAJ&hl=en), and [Safa Jamali](https://scholar.google.com/citations?user=D1asaYIAAAAJ&hl=en).
