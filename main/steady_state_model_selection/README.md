@@ -35,7 +35,7 @@ Suppose you have the steady-state shear stress (&sigma;, in Pa) of a set of mate
 
 To answer this question, we developed this rheology-informed platform that takes in a <img src="https://render.githubusercontent.com/render/math?math=\sigma-\dot{\gamma}"> set of data, trains a neural net, learns the parameters of nine constitutive models, and finally hands the model parameters and the best model describing that rheology.
 
-One might argue that this task could be done with other optimization or probabilistic methods, e,g., BIC or `scipy`'s `curve_fit` method (Trust Region Reflective, a constrained optimization method). We actually tested our RhINN algorithm against these two models. We found out that both TRF and BIC need proper priors and initial guesses for them to converge. However, our RhINN platform marches the entire parameter space without any constraints. RhINN can be the first step to get a sense of the parameter range, and other optimization methods can compliment RhINN if higher precision is demanded.
+One might argue that this task could be done with other optimization or probabilistic methods, e,g., BIC or `scipy`'s `curve_fit` method (Trust Region Reflective, a constrained optimization method). We actually tested our RhINN algorithm against these two models. We found out that both TRF and BIC need proper priors and initial guesses for them to converge. However, our RhINN platform marches the entire parameter space without any constraints. RhINN can be the first step to get a sense of the parameter range, and other optimization methods can complement RhINN if higher precision is demanded.
 
 
 ## Contributors
